@@ -5,9 +5,23 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background: #f0f1f3;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.page1-content {display: flex;flex-direction: column;justify-content: center;align-items: center;background: #fff;padding: 100px 0 200px;}
+.page1-content  img { width: 500px;height: 500px;border-radius: 50%;}
+.page1-content .title {color: #333;}
+.page1-content .sub-title{color: #666;font-size: 80px;padding-top: 50px;}
+.page1-footer {text-align: center;color: #fff;display: flex;justify-content: center;padding-top: 200px;}
+.page1-footer .page-button {
+  display: block;width: 1000px;background: #40a9ff;
+  height: 200px;
+  border-radius: 40px;
+  line-height: 200px;
+}
+.page1-footer .page-text {color: #666;font-size: 90px;}
